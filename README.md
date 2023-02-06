@@ -15,11 +15,11 @@
 # 更新于2023-02-06
 由于网页结构改变，在一位朋友的提醒下更新了代码
 操作步骤也随之改变:
-1.输入要爬取的jobId，获取方法如下：
-    打开如下网址：https://www.nowcoder.com/interview/center?entranceType=%E5%AF%BC%E8%88%AA%E6%A0%8F
-    打开开发者模式，点击网络，然后选择Fetch/XHR
-    在网页下面面试经验部分选择你要爬取的面经领域，然后找到一条list开头的请求，点进去查看载荷，找到jobId输入程序即可
-2.输入爬取的面经组数（一组20个）
-3.等待结果输出
+###1.输入要爬取的jobId，获取方法如下：
+    -打开如下网址：https://www.nowcoder.com/interview/center?entranceType=%E5%AF%BC%E8%88%AA%E6%A0%8F
+    -打开开发者模式，点击网络，然后选择Fetch/XHR
+    -在网页下面面试经验部分选择你要爬取的面经领域，然后找到一条list开头的请求，点进去查看载荷，找到jobId输入程序即可
+###2.输入爬取的面经组数（一组20个）
+###3.等待结果输出
 tips：由于网页架构升级，使用同一ip爬取可能会被短暂封ip，若想获得高效服务可以参考如下git代码搭建代理使用
     https://github.com/jhao104/proxy_pool
